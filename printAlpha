@@ -101,7 +101,7 @@ namespace printAlphabelt
             for (temp = number; number != 0; number = number / 10)
             {
                 remainder = number % 10;
-                sum = sum * 10 + remainder;
+                sum = number * 10 + remainder;
             }
             if (temp == sum)
             {
